@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Card from './Card';
-import './index.css';
+import App from './App'; // Importa el componente principal App
+import Card from './Card'; // Importa el componente Card
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
     <Card />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
